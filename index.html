@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website </title>
+    <!-- main css-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- default color -->
+    <link rel="stylesheet" href="css/color-1.css">
+    <!-- style switcher for demo purposes only-->
+    <link rel="stylesheet" class="alternate-style" href="css/color-1.css" title="color-1" >
+    <link rel="stylesheet" class="alternate-style" href="css/color-2.css" title="color-2" disabled>
+    <link rel="stylesheet" class="alternate-style" href="css/color-3.css" title="color-3" disabled>
+    <link rel="stylesheet" class="alternate-style" href="css/color-4.css" title="color-4" disabled>
+    <link rel="stylesheet" class="alternate-style" href="css/color-5.css" title="color-5" disabled>
+
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <link rel="stylesheet" href="css/response.css">
+     <!--font awesome-->
+     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+
+
+
+</head>
+<body >
+    <!--preloder star -->
+  <div class="preloader">
+        <div class="box">
+            <div></div><div></div><div></div>
+        </div>
+    </div>
+    <!-- preloader end-->
+
+    <!--header start-->
+    <header class="header">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="logo">
+                        <a href="index.html">j</a>
+                    </div>
+                    <div class="hamburger-btn outer-shadow hover-in-shadow">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- header end-->
+
+    <!--navigation nemu start -->
+    <nav class="nav-menu">
+      <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+      <div class="nav-menu-inner">
+          <ul>
+              <li><a href="#home" class=" link-item inner-shadow active">home</a></li>
+              <li><a href="#about" class="link-item  outer-shadow hover-in-shadow">about</a></li>
+              <li><a href="#services" class="link-item outer-shadow hover-in-shadow">services</a></li>
+              <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">portfolio</a></li>
+              <li><a href="#contact" class=" link-item outer-shadow hover-in-shadow">contact</a></li>
+
+          </ul>
+      </div>  
+      <!--copyright text-->
+      <p class="copyright-text"> &copy;	2021 jamel issaoui</p> 
+    </nav>
+    <div class="fade-out-effect"></div> 
+    <!--navigation nemu and -->
+    <!--section home-->
+    <section class="home-section section  active" id="home">
+        <!--effect -->
+        <div class="effect-wrap">
+            <div class="effect effect-1"> </div>
+            <div class="effect effect-2">
+               <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>    
+               <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+               <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+            </div>
+            <div class="effect effect-3"> </div>
+            <div class="effect effect-4"> </div>
+            <div class="effect effect-5"> 
+                <div></div><div></div><div></div><div></div><div></div><div></div>
+                <div></div><div></div><div></div><div></div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row full-screen align-items-center">
+                <div class="home-text">
+                    <p>Hey</p>
+                    <h2>I'm Issaoui jamel</h2>
+                    <h1>Web designer & developer</h1>
+                    <a href="#about" class=" link-item btn-1  outer-shadow hover-in-shadow ">More about me</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box inner-shadow">
+                        <img src="img/aaa.PNG" class="outer-shadow" alt="profile-pic" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end section home-->
+    <section class="about-section section " id="about" >
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="main information">About me </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box inner-shadow">
+                        <img src="img/aaa.png" alt="profile-pic" class="outer-shadow">
+                    </div>
+                    <!-- socail links start -->
+                    <div class="social-links">
+                        <a href="#"><i></i></a>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <p><span> Hey i'm  Jamel Issaoui</span>. I am a 3rd year student specializing in software engineering and computer systems at the science university of Bizerte. As part of my training, I am looking for a pfe internship. 
+                        I am motivated, organized and I am 100% invested in everything I do because I love to learn.</p> 
+                    <a href="cv.pdf" class=" btn-1 outer-shadow hover-in-shadow">Download  CV</a>        
+                </div>
+            </div>
+            <!-- about tabs start -->
+            <div class="row">
+                <div class="about-tabs">
+                 <span class="tab-item outer-shadow active" data-target=".skill">Skills</span>
+                 <span class="tab-item" data-target=".experience">Experience</span>
+                 <span class="tab-item" data-target=".education">Education</span>       
+                </div>
+            </div>
+            <!--skills start -->
+              <div class="row">
+                <div class="skill tab-content active">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <!--timeline item start -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span> Technologies </span>
+                                        <p>Python /  HTML,CSS, Javascript / React Js / Angular / PHP  / Bootstrap / Java EE / Springboot  / Android / Java</p>
+                                    </div>
+                                   
+                                </div>
+                                <!--end timeline item start-->
+                                 <!--timeline item start -->
+                                 <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span> Tools </span> 
+                                        <p>Git / Eclipse / IntelliJ / Visual studio / Apache / PhotoShop / Adobe XD / Android Studio</p>
+                                    </div>
+                                   
+                                </div>
+                                <!--end timeline item start-->
+                                 <!--timeline item start -->
+                                  
+                                 <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span> Database </span> 
+                                        <p>Oracle / SQL / SQL Server / SQL Workbench / FireBase</p>
+                                    </div>
+                                   
+                                </div>
+                                <!--end timeline item start-->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span> Methodologies </span> 
+                                        <p>Scrum / UML</p>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--skill end -->
+            <!--experience start-->
+            <div class="row">
+                <div class="experience tab-content">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <!--timeline item start -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-briefcase icon"></i>
+                                        <span> oct 2021 - déc 2020</span>
+                                        <h3>Mobile Application Project</h3>
+                                        <p>(Tools : Java / Android /Android / Studio/ Firebase / SQLite)<br>
+                                            A restaurant mobile application allowing the user to order food.<br>
+                                        * Management of user types. Authentication and registration management with con ﬁ rmation by email or phone number<br>
+                                        * Management of forgot password types by Email or phone number <br>
+                                        * Statistics management</p>
+                                    </div>
+                                   
+                                </div>
+                                <!--end timeline item start-->
+                                 <!--timeline item start -->
+                                 <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-briefcase icon"></i>
+                                        <span>oct 2021 - déc 2020</span>
+                                        <h3> Java EE project</h3>
+                                        <p>( Tools : Java - Bootstrap - JAVA EE - Eclipse - Apache - SQL - SQL Server - SQL Workbench ) <br>
+                                            The goal of this project is to create an ecommerce website with a login page and a page of all the products, he can add a new product and add products to the basket and in the basket can delete or add another product. All actions will be saved in an SQL database.</p>
+                                    </div>
+                                   
+                                </div>
+                                <!--end timeline item start-->
+                                 <!--timeline item start -->
+                                 <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-briefcase icon"></i>
+                                        <span>mai 2021 - juil 2020</span>
+                                        <h3>Projet de fin d'année</h3>
+                                        <p> ALEM SGIREK (Tools : Html5 - CSS3 - Javacript - React Js - Bootstrap - SQL - Git - Visual studio ) <br>
+                                            The goal is to run a website to teach children between 1 and 4 years old letters and numbers. parents are create an account with verification can access to have all the level that their child succeeds and give feedback. 
+                                            </p>
+                                    </div>
+                                   
+                                </div>
+                                <!--end timeline item start-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--experience end -->
+            <div class="row">
+                <div class="education tab-content">
+                    <div class="row">
+                        <div class="timeline">
+                            <div class="row">
+                                <!--timeline item start -->
+                                <div class="timeline-item">
+                                    <div class="timeline-item-inner outer-shadow">
+                                        <i class="fas fa-graduation-cap icon"></i>
+                                        <span> 2019 - present </span>
+                                        <h3>university of Sciences of Bizerte FSB</h3>
+                                        <p>computer science licence <br> specialty: software engineering and computer systems</p>
+                                    </div>
+                                   
+                                </div>
+                                <!--end timeline item start-->
+
+                                 <!--timeline item start -->
+                                  
+                                <!--end timeline item start-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--aducation start -->
+        </div>
+    </section>
+    <!--about section end -->
+    <section class="service-section section" id="services" >
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="Services">what I do</h2>
+                </div>
+            </div>
+        
+            <div class="row">
+                <!--sercice item start-->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <h3>Web development </h3>
+                        <p>I can develop a dynamic or static WEB application  </p>
+                    </div>
+                </div>
+                <!--sercice item start-->
+                <!--sercice item start-->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <h3>mobile development</h3>
+                        <p>I can develop a mobile application use Android studio  </p>
+                    </div>
+                </div>
+                <!--sercice item start-->
+                <!--sercice item start-->
+                <div class="service-item">
+                    <div class="service-item-inner outer-shadow">
+                        <div class="icon inner-shadow">
+                            <i class="fas fa-adjust"></i>
+                        </div>
+                        <h3>design</h3>
+                        <p>I have a little skill to create a logo edit the photo with PhotoShop and designer web sets with Adobe XD</p>
+                    </div>
+                </div>
+                <!--sercice item start-->
+                <!--sercice item start-->
+                
+            </div> 
+        </div>  
+    </section>
+    <!--servise section end-->
+
+    <!--portefello section end-->
+    <section class="portfolio-section section"  id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="portefeuille">latest works</h2>
+                </div>
+            </div>
+            <!-- portefolio filter start-->
+            <div class="row">
+                <div class="portfolio-filter">
+                    <span class="filter-item outer-shadow active" data-target="all">All</span>
+                    <span class="filter-item" data-target="web-application">Web application</span>
+                    <span class="filter-item" data-target="mobile-app">mobile app</span>
+                    <span class="filter-item" data-target="certificat">certificate</span>
+                </div>
+            </div>
+             <!-- portefolio filter start-->
+            <div class="row portfolio-items">
+                <!-- portfelio item start -->
+                <div class="portfolio-item" data-category="web-application" >
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/thumb/project-1.png" alt="portfolio" 
+                            data-sreenshots="img/portfolio/large/project-1/1.png,
+                            img/portfolio/large/project-1/2.png,
+                            img/portfolio/large/project-1/3.png,
+                            img/portfolio/large/project-1/4.png,
+                            img/portfolio/large/project-1/5.png">
+                            
+                            <span class="view-project">see the project</span>
+                        </div>
+                        <p class="portfolio-item-title">simple website</p>
+                        <!--portfolio iteam details start -->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h2>project summary ;</h2>
+                                    <p>make my first web set</p>
+                                </div>
+                                <div class="info">
+                                    <h2>project information </h2>
+                                    <ul>
+                                        <li>Date - <span>2021</span></li>
+                                        <li>Tools - <span>html css </span></li>
+                                        <li>web - <span><a href="https://jamel123a.github.io/Template_1/">https://jamel123a.github.io/Template_1/</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--portfolio iteam details start -->
+                    </div>
+                </div>
+              <!-- portfelio item end -->
+               <!-- portfelio item start -->
+               <div class="portfolio-item" data-category="web-application">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/project-2.png" alt="portfolio" 
+                        data-sreenshots="img/portfolio/large/project-2/1.png,
+                        img/portfolio/large/project-2/2.png,
+                        img/portfolio/large/project-2/3.png,
+                        img/portfolio/large/project-2/4.png,
+                        img/portfolio/large/project-2/5.png,
+                        img/portfolio/large/project-1/6.png,
+                        img/portfolio/large/project-1/7.png
+                        ">
+                        <span class="view-project">see the project</span>
+                    </div>
+                    <p class="portfolio-item-title">ecommerce website</p>
+                    <!--portfolio iteam details start -->
+                    <div class="portfolio-item-details">
+                        <div class="row">
+                            <div class="description">
+                                <h2>project summary :</h2>
+                                <p>creation of a front-end e-commerce website that promotes coffee to improve html css javacript </p>
+                            </div>
+                            <div class="info">
+                                <h2>project information</h2>
+                                <ul>
+                                    <li>Date - <span>2021</span></li>
+                                    <li>Tools - <span>html css javacript </span></li>
+                                    <li>web - <span><a target="_black" href="https://jamel123a.github.io/template_2/">https://jamel123a.github.io/template_2/</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio iteam details start -->
+                </div>
+            </div>
+          <!-- portfelio item end -->
+           <!-- portfelio item start -->
+                <div class="portfolio-item" data-category="mobile-app" >
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img   src="img/portfolio/thumb/project-3.png" alt="portfolio" 
+                            data-sreenshots="img/portfolio/large/project-3/10.png,
+                            img/portfolio/large/project-3/11.png,
+                            img/portfolio/large/project-3/12.png,
+                            img/portfolio/large/project-3/13.png,
+                            img/portfolio/large/project-3/13.png,
+                            img/portfolio/large/project-3/13.png,
+                            img/portfolio/large/project-3/24.png,
+                            img/portfolio/large/project-3/14.png,
+                            img/portfolio/large/project-3/15.png,
+                            img/portfolio/large/project-3/16.png,
+                            img/portfolio/large/project-3/17.png,
+                            img/portfolio/large/project-3/18.png,
+                            img/portfolio/large/project-3/19.png,
+                            img/portfolio/large/project-3/20.png,
+                            img/portfolio/large/project-3/21.png,
+                            img/portfolio/large/project-3/22.png,
+                            img/portfolio/large/project-3/25.png">
+                            <span class="view-project">see the project</span>
+                        </div>
+                        <p class="portfolio-item-title">Foody app mobile </p>
+                        <!--portfolio iteam details start -->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h2>project summary :</h2>
+                                    <p>  a restaurant mobile application allowing the user to order food</p>
+                                </div>
+                                <div class="info">
+                                    <h2>project information </h2>
+                                    <ul>
+                                        <li>Date - <span>2021</span></li>
+                                        <li>Tools - <span>android studio firebese java </span></li>
+                                        <li>see the code in github  <span><a href="https://github.com/jamel123a/foody-app">https://github.com/jamel123a/foody-app</a> <br></span> or vidio in linkdin  <span><a href="https://www.linkedin.com/posts/issaoui-jamel_android-java-firebase-activity-6881656274715467776-D7UP">
+                                            https://www.linkedin.com/posts/issaoui-jamel_android
+                                        </a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--portfolio iteam details start -->
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web-application">
+                    <div class="portfolio-item-inner outer-shadow">
+                        <div class="portfolio-item-img">
+                            <img src="img/portfolio/thumb/project-4.png" alt="portfolio" 
+                            data-sreenshots="img/portfolio/large/project-4/1.png,
+                            img/portfolio/large/project-4/2.png,
+                            img/portfolio/large/project-4/3.png,
+                            img/portfolio/large/project-4/4.png
+                            ">
+                            <span class="view-project">see the project </span>
+                        </div>
+                        <p class="portfolio-item-title">my official wet set</p>
+                        <!--portfolio iteam details start -->
+                        <div class="portfolio-item-details">
+                            <div class="row">
+                                <div class="description">
+                                    <h2></h2>
+                                    <p> </p>
+                                </div>
+                                <div class="info">
+                                    <h2>project information</h2>
+                                    <ul>
+                                        <li>Date - <span>2021</span></li>
+                                        <li>Tools - <span>html css javacript </span></li>
+                                        <li>web - <span><a target="_black" href="https://github.com/jamel123a/official_set_web">https://github.com/jamel123a/official_set_web</a></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--portfolio iteam details start -->
+                    </div>
+                </div>
+              <!-- portfelio item end -->
+               <!-- portfelio item start -->
+            <div class="portfolio-item" data-category="certificat">
+                <div class="portfolio-item-inner outer-shadow">
+                    <div class="portfolio-item-img">
+                        <img src="img/portfolio/thumb/1.jpg" alt="portfolio" 
+                        data-sreenshots="img/portfolio/large/certicate/1.jpg,
+                        img/portfolio/large/certicate/2.jpg,
+                        img/portfolio/large/certicate/3.jpg">
+                        <span class="view-project">see the  certificat</span>
+                    </div>
+                    <p class="portfolio-item-title">personnel certificate</p>
+                </div>
+                
+                <!--portfolio iteam details start -->
+                <div class="portfolio-item-details">
+                    <div class="row">
+                        <div class="description">
+                            <h2></h2>
+                            <p> </p>
+                        </div>
+                        <div class="info">
+                            <h2> </h2>
+                            <ul>
+                                <li>Date - <span>2021</span></li>
+                                <li> <span>
+                                     </span></li>
+                                <li>  <span><a href="#"></a> <br></span>   <span><a href="#"></a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- portfelio item end -->
+            </div>
+          <!-- portefolio filter end-->
+        </div>
+    </section>
+    <!-- portfolio popup start -->
+    <div class="pp portfolio-popup">
+        <div class="pp-details">
+            <div class="pp-details-inner">
+                <div class="pp-title">
+                    <h2>Personal portfolio</h2>
+                    <p>Catégorie - <span class="pp-project-category">Web application</span></p>
+                </div>
+                <div class="pp-project-details">    
+                    <div class="row">
+                        <div class="description">
+                            <h2>résumé du projet  :</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Corrupti soluta consectetur magni pariatur ab eius, sequi quia 
+                                mollitia dolor odit tempora cum sapiente,
+                                 molestias, suscipit id accusantium facere nisi voluptas.</p>
+                        </div>
+                        <div class="info">
+                            <h2>informations sur le projet </h2>
+                            <ul>
+                                <li>Date - <span>2000</span></li>
+                                <li>Outils - <span>html css javacript </span></li>
+                                <li>web - <span><a href="#">www.domain.com</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seperator"></div>
+        <div class="pp-main">
+            <div class="pp-main-inner">
+                <div class="pp-project-details-btn outer-shadow hover-in-shadow"> Détails of the  projet <i class="fas fa-plus"></i></div>
+                <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+                <img src="img/portfolio/large/project-2/1.png" alt="img" class="pp-img outer-shadow">
+                <div class="pp-counter">1 of 6 </div>
+            </div>
+            <div class="pp-loader">
+                <div></div>
+            </div>
+            <!-- pp navigation-->
+            <div class="pp-prec"><i class="fas fa-play"></i></div>
+            <div class="pp-next"><i class="fas fa-play"></i></div>
+       <!-- portfolio popup start -->
+        </div>
+    </div>
+    <!--section conctact -->
+    <section class="contact-section section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="contact">Get in touch</h2>
+                </div> 
+            </div>
+            <div class="row">
+                <!--contact item-->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone number</span>
+                        <p>+216 52 645 566</p>
+                    </div>
+                </div>
+                <!--contact item-->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                        <p>issaouijamel7@gmail.com</p>
+                    </div>
+                </div>
+                <!--contact item-->
+                <div class="contact-item">
+                    <div class="contact-item-inner outer-shadow">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Address</span>
+                        <p>bizerte , tunisie</p>
+                    </div>
+                </div>               
+                <!--contact item-->
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form >
+                        <div class="row">
+                            <div class="w-50">
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                      <input type="text" placeholder="name" class="input-control">
+                                </div>
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <input type="text" placeholder="Email" class="input-control">
+                                </div>
+                              <div class="input-group outer-shadow hover-in-shadow">
+                                <input type="text" placeholder="Subject" class="input-control">
+                             </div>
+                            </div>
+                            <div class="w-50">
+                                <div class="input-group outer-shadow hover-in-shadow">
+                                    <textarea class="input-control" placeholder="message">
+                                    </textarea>
+                                </div>
+                            </div>                             
+                        </div>
+                        <div class="row">
+                            <div class="submit-btn">
+                                <button type="submit" class="btn-1 hover-in-shadow outer-shadow">send a  message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- style switcher start for demo purposes only-->
+    <div class="style-switcher outer-shadow">
+        <div class="style-switcher-toggler s-icon outer-shadow hover-in-shadow">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon outer-shadow hover-in-shadow">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Colors </h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+
+        </div>
+    </div>
+
+    <!-- main js-->
+    <script src="js/main.js"></script>
+      <!-- switcher js-->
+      <script src="js/syles-switcher.js"></script>
+
+</body>
+</html>
